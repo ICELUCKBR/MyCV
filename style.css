@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 38px;
+}
+
+.information-column {
+  padding: 40px;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: center;
+}
+
+.information-column ul {
+  list-style-type: none;
+}
+.information-column hr {
+  border: none;
+  margin-top: 18px;
+  border-bottom: 1px solid #2729ad8a;
+}
+
+.information-column img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #2729ad8a;
+  margin-bottom: 18px;
+}
+.contact-description li {
+  margin-bottom: 2px;
+  margin: 10px 0;
+}
+.contact-description a {
+  font-style: italic;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-description i {
+  color: #2729ad8a;
+  margin-right: 10px;
+}
+
+.contact-description,
+.education-description,
+.language-description {
+  text-align: left;
+}
+.education-description,
+.language-description {
+  margin-top: 20px;
+}
+.education-description p {
+  color: #3335ac;
+}
+.language-description .percent {
+  height: 6px;
+  background-color: #686ac4;
+  margin-top: 5px;
+  width: 205px;
+}
+.language-description .percent div {
+  height: 6px;
+  background-color: #2f2ce4;
+}
+
+.language-description .percent .english {
+  width: 70%;
+}
+.language-description .percent .spanish {
+  width: 84%;
+}
+.language-description .percent .german {
+  width: 30%;
+}
+
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  color: #0f0f0f;
+}
+
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+
+.experiences-column ul {
+  list-style: none;
+}
+
+.experiences-column section{
+    margin-bottom: 30px;
+}
+
+.experiences-column h4{
+    margin-top: 14px;
+}
+
+.experiences-column a{
+   
+    color: #0f0f0f;
+}
+.experiences-column a:hover{
+    color: #1d1c1c;
+}
+.experiences-column .last-date{
+    text-align: right;
+    color: #70707081;
+}
+
+@media  (min-width:992px){
+  .container{
+    display: flex;
+  }
+  .contact-description a{
+    font-size: 15px;
+  }
+
+  .contact-description{
+    margin-top: 10px;
+  }
+  .information-column h1{
+    font-size: 20px;
+  }
+
+  .information-column h2{
+    font-size: 20px;
+  }
+  .information-column .education-description h2,.language-description h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .information-column img {
+      width: 200px;
+      height: 200px;
+  }
+
+  .experiences-column .experience {
+    display: flex;
+    margin-bottom: 50px;
+    
+  }
+
+  .experience-date{
+      width: 150px;
+  }
+
+  .projects h3{
+    margin-bottom: 5px;
+  }
+  .projects{
+    margin-bottom: 20px;
+  }
+
+}
